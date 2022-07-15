@@ -55,25 +55,25 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+ADDSUDO_COMMAND : ["addsudo", "a"]
+DELSUDO_COMMAND : ["delsudo", "da"]
+SUDOUSERS_COMMAND : ["sudolist", "sl"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast"]
+BROADCAST_COMMAND : ["broadcast", "bc"]
 
 #Blacklist chat
-BLACKLISTCHAT_COMMAND : ["blacklistchat"]
-WHITELISTCHAT_COMMAND : ["whitelistchat"]
-BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
+BLACKLISTCHAT_COMMAND : ["blacklistchat", "bl"]
+WHITELISTCHAT_COMMAND : ["whitelistchat", "wl"]
+BLACKLISTEDCHAT_COMMAND : ["blacklistedchat", "blc"]
 
 # Video Calls Command
 VIDEOLIMIT_COMMAND : ["set_video_limit"]
 VIDEOMODE_COMMAND : ["videomode"]
 
 #Mantenance
-MAINTENANCE_COMMAND : ["maintenance"]
-LOGGER_COMMAND : ["logger"]
+MAINTENANCE_COMMAND : ["maintenance", "maintenis", "mt"]
+LOGGER_COMMAND : ["logger", "log"]
 
 #Heroku
 GETLOG_COMMAND : ["get_log"]
@@ -99,12 +99,12 @@ BLOCK_COMMAND : ["block"]
 UNBLOCK_COMMAND : ["unblock"]
 BLOCKED_COMMAND : ["blockedusers"]
 
-#sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest"]
+#SPEEDTEST
+SPEEDTEST_COMMAND : ["speedtest", "st"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice"]
-ACTIVEVIDEO_COMMAND : ["activevideo"]
+ACTIVEVC_COMMAND : ["activevoice", "cekvc"]
+ACTIVEVIDEO_COMMAND : ["activevideo", "cekvd"]
 
 #Gban Commands
 GBAN_COMMAND : ["gban"]
