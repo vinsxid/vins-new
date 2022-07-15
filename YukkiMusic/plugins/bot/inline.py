@@ -54,15 +54,15 @@ async def inline_query_handler(client, query):
                 ]
             )
             searched_text = f"""
-❇️**Title:** [{title}]({link})
+❇️ **Judul:** [{title}]({link})
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
+⏳ **Durasi:** {duration} Mins
+👀 **Views:** `{views}`
+⏰ **Waktu Published:** {published}
+🎥 **Channel Name:** `{channel}`
+📎 **Channel Link:** [Kunjungi Disini]({channellink})
 
-__Reply with /play on this searched message to stream it on voice chat.__
+__Balas dengan /play pada pesan yang dicari ini untuk memulai di obrolan suara.__
 
 ⚡️ ** Inline Search By {MUSIC_BOT_NAME} **"""
             answers.append(
