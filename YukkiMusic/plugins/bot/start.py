@@ -55,7 +55,7 @@ async def start_comm(client, message: Message, _):
             return await message.reply_text(_["song_2"])
         if name[0:3] == "sta":
             m = await message.reply_text(
-                "🔎 Fetching your personal stats.!"
+                "🔎 Mengambil statistik pribadi Anda.!"
             )
             stats = await get_userss(message.from_user.id)
             tot = len(stats)
@@ -126,7 +126,7 @@ async def start_comm(client, message: Message, _):
                 return await Telegram.send_split_text(message, lyrics)
             else:
                 return await message.reply_text(
-                    "Failed to get lyrics."
+                    "Gagal mendapatkan lirik."
                 )
         if name[0:3] == "del":
             await del_plist_msg(client=client, message=message, _=_)
@@ -147,18 +147,18 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🔍__**Video Track Information**__
+👁️‍🗨️ **Informasi Trek Video**
 
-❇️**Title:** {title}
+❇️ **Judul:** {title}
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
-🔗**Video Link:** [Link]({link})
+⏳ **Durasi:** {duration} Mins
+👀 **Views:** `{views}`
+⏰ **Waktu Published:** {published}
+🎥 **Channel Name:** `{channel}`
+📎 **Channel Link:** [Kunjungi Disini]({channellink})
+🔗 **Video Link:** [Link]({link})
 
-⚡️ __Searched Powered By {config.MUSIC_BOT_NAME}__"""
+⚡️ ** Searched Powered By {config.MUSIC_BOT_NAME} **"""
             key = InlineKeyboardMarkup(
                 [
                     [
@@ -247,7 +247,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**Private Music Bot**\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
+                "**Bot Musik Pribadi**\n\nHanya untuk obrolan resmi yang telah diizinkan oleh pemilik saya. Minta pemilik saya untuk mengizinkan obrolan Anda terlebih dahulu."
             )
             return await app.leave_chat(message.chat.id)
     else:
