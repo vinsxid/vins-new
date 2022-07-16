@@ -36,7 +36,7 @@ async def activevc(_, message: Message):
             title = "Private Group"
         if (await app.get_chat(x)).username:
             user = (await app.get_chat(x)).username
-            text += f"<b>{j + 1}.</b>  [{title}](https://t.me/{user})[`{x}`]\n"
+            text += f"<b>{j + 1}.</b> [{title}](https://t.me/{user}) [`{x}`]\n"
         else:
             text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
         j += 1
@@ -64,7 +64,7 @@ async def activevi_(_, message: Message):
             title = "Private Group"
         if (await app.get_chat(x)).username:
             user = (await app.get_chat(x)).username
-            text += f"<b>{j + 1}.</b>  [{title}](https://t.me/{user})[`{x}`]\n"
+            text += f"<b>{j + 1}.</b> [{title}](https://t.me/{user}) [`{x}`]\n"
         else:
             text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
         j += 1
