@@ -42,15 +42,15 @@ async def speedtest_function(client, message):
     output = f"""**Speedtest Results**
     
 <u>**Client:**</u>
-**__ISP:__** {result['client']['isp']}
-**__Country:__** {result['client']['country']}
+**ISP:** {result['client']['isp']}
+**Country:** {result['client']['country']}
   
 <u>**Server:**</u>
-**__Name:__** {result['server']['name']}
-**__Country:__** {result['server']['country']}, {result['server']['cc']}
-**__Sponsor:__** {result['server']['sponsor']}
-**__Latency:__** {result['server']['latency']}  
-**__Ping:__** {result['ping']}"""
+**Name:** {result['server']['name']}
+**Country:** {result['server']['country']}, {result['server']['cc']}
+**Sponsor:** {result['server']['sponsor']}
+**Latency:** {result['server']['latency']}  
+**Ping:** {result['ping']}"""
     msg = await app.send_photo(
         chat_id=message.chat.id, 
         photo=result["share"], 
