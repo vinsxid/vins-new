@@ -42,10 +42,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                #text=_["PL_B_2"],
-                #callback_data=f"add_playlist {videoid}",
-                text=_["S_B_3"],
-                url=f"{config.SUPPORT_GROUP}",
+                text=_["PL_B_2"],
+                callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
@@ -93,6 +91,8 @@ def stream_markup(_, videoid, chat_id):
                 #text=_["PL_B_2"],
                 #callback_data=f"add_playlist {videoid}",
                 text="📨 ᴄʜᴀɴɴᴇʟ", url=f"{config.SUPPORT_CHANNEL}"
+                #text=_["S_B_3"],
+                #url=f"{config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
@@ -249,15 +249,15 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="«",
+                text="◀️",
                 callback_data=f"Pages Back|0|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 Kembali",
+                text="🔙 Back",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="»",
+                text="▶️",
                 callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
         ],
@@ -287,15 +287,15 @@ def panel_markup_2(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="«",
+                text="◀️",
                 callback_data=f"Pages Back|1|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 Kembali",
+                text="🔙 Back",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="»",
+                text="▶️",
                 callback_data=f"Pages Forw|1|{videoid}|{chat_id}",
             ),
         ],
@@ -327,15 +327,15 @@ def panel_markup_3(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="«",
+                text="◀️",
                 callback_data=f"Pages Back|2|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 Kembali",
+                text="🔙 Back",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="»",
+                text="▶️",
                 callback_data=f"Pages Forw|2|{videoid}|{chat_id}",
             ),
         ],
