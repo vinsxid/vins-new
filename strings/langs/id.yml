@@ -1,6 +1,6 @@
 name : 🇮🇩 Indonesia
 
-#By vins-music
+#By xid
 
 # General Strings
 general_1 : "Balas pesan pengguna atau berikan username/id_pengguna"
@@ -114,7 +114,7 @@ set_cb_8 : "Kembali.."
 
 # Misc
 ustats_1 : "Tidak Ada Statistik Pengguna Ditemukan."
-ustats_2 : "Salam!, Anda telah memainkan **{0}** trek sampai sekarang dengan hitungan **{1}** Kali.\n\n{2} teratas yang dimainkan oleh Anda:\n\n"
+ustats_2 : "Salam! Anda telah memainkan **{0}** trek sampai sekarang dengan hitungan **{1}** Kali.\n\n{2} teratas yang dimainkan oleh Anda:\n\n"
 
 gstats_1 : "Mendapatkan Statistik Global, Ini bisa memakan waktu.."
 gstats_2 : "Statistik tidak Ditemukan."
@@ -166,7 +166,7 @@ play_18 : "**Tidak Ditemukan Obrolan Suara Aktif**\n\nUntuk menggunakan force pl
 
 #Playlist
 playlist_1 : "**Penggunaan:** /play [Judul atau Tautan Youtube atau Balas Audio]\n\nJika Anda ingin memutar Daftar Putar server Bot! Tekan tombol di bawah."
-playlist_2 : "⏳ Mendapatkan Daftar Putar Anda.. Harap Tunggu!"
+playlist_2 : "Mendapatkan Daftar Putar Anda.. Harap Tunggu!"
 playlist_3 : "❌ **Tidak memiliki Daftar Putar di server Bot.**"
 playlist_4 : "Daftar Putar yang Diambil:\n\n"
 playlist_5 : "Durasi- {0} Menit"
@@ -202,11 +202,11 @@ track_2 : "**Error**\n\nTidak ada **{0} Top 10 Daftar Putar** di server Bot. Sil
 #Lyrics
 lyrics_1 : "**Penggunaan:**\n\n/lyrics [Judul]"
 lyrics_2 : "🚀 Mencari Lirik"
-lyrics_3 : "Gagal mengambil Lirik😞.\n\n💡 **Mencoba Mencari:** {0}"
+lyrics_3 : "😞 Gagal mengambil Lirik.\n\n💡 **Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan cari Lirik untuk menghindari pencarian Lirik jenis spam yang panjang."
 
 #Ping
-ping_1 : "ᴘᴏɴɢ🏓!!"
+ping_1 : "ᴘᴏɴɢ🏓...!!"
 ping_2 : "**{0}** Bekerja dengan Baik..\n\n**❏ 𝙳𝚎𝚝𝚊𝚒𝚕:\n├• 𝙿𝙸𝙽𝙶: `{1}` ms.\n├• 𝚆𝙰𝙺𝚃𝚄 𝙰𝙺𝚃𝙸𝙵: {2}\n├• 𝙱𝙴𝙱𝙰𝙽 𝙳𝙸𝚂𝙺: `{3}`\n├• 𝙱𝙴𝙱𝙰𝙽 𝙲𝙿𝚄: `{4}`\n├• 𝙱𝙴𝙱𝙰𝙽 𝚁𝙰𝙼: `{5}`\n└• 𝙿𝚈-𝚃𝙶𝙲𝙰𝙻𝙻𝚂 𝙿𝙸𝙽𝙶: `{6}` ms.**"
 
 # Song
@@ -226,7 +226,7 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 queue_1 : "Mohon Tunggu.. Mengambil Antrian.."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang Ditemukan"
 queue_3 : "**Trek Antrian:** [Lihat Trek Antrian Lainnya Disini] ({0})"
-queue_4 : "⤵️ Ditambahkan ke Antrian » **#{0}\n\n💡 Judul:** {1}\n⌛️ **Durasi:** {2}\n👤 **Ditambahkan Oleh:** {3}"
+queue_4 : "⤵️ Ditambahkan ke Antrian » **#{0}\n\n💡 Judul:** {1}\n⌛️ **Durasi:** {2}\n👤 **Ditambahkan Oleh:** {3} "
 queue_5 : "Hanya satu trek di dalam Antrian, Silahkan tambahkan lagi untuk check list"
 
 # All Streaming Lines
@@ -388,13 +388,13 @@ vidmode_2 : "Mode Putar Video disetel sebagai downloder. Bot akan mengunduh trek
 vidmode_3 : "Mode Putar Video ditetapkan sebagai m3u8. Bot akan memutar trek secara langsung sekarang."
 
 #broadcast
-broad_1 : "**Broadcast {0} Obrolan dengan {1} Pin dari Bot.**"
-broad_2 : "Memulai Siaran Asisten.."
-broad_3 : "**Siaran Asisten:**\n\n"
-broad_4 : "Asisten {0} Disiarkan di {1} obrolan\n"
+broad_1 : "**» Broadcast {0} Obrolan dengan {1} Pin dari Bot.**"
+broad_2 : "» Memulai Siaran Asisten.."
+broad_3 : "**» Siaran Asisten:**\n\n"
+broad_4 : "» Asisten {0} Disiarkan di {1} Obrolan\n"
 broad_5 : "**Penggunaan**:\n/broadcast [PESAN] atau [Balas Pesan]"
 broad_6 : "Harap berikan beberapa teks untuk disiarkan."
-broad_7 : "**Broadcast {0} Pengguna.**"
+broad_7 : "**» Broadcast {0} Pengguna.**"
 
 #Heroku
 heroku_1 : "Pastikan Heroku API Key Anda, Nama Aplikasi Anda dikonfigurasi dengan benar di heroku"
@@ -422,11 +422,11 @@ pbot_5 : "Obrolan sudah ada di Daftar yang diotorisasi"
 pbot_6 : "Tidak ada Obrolan itu di Daftar Resmi"
 pbot_7 : "Gagal memverifikasi chat_id.\n\nPastikan numerik dalam format yang benar. Jangan gunakan username atau tautan obrolan."
 pbot_8 : "Mohon tunggu.. Mengambil Obrolan Resmi."
-pbot_9 : "**<b>✅ Obrolan Aktif</b>**\n\n"
+pbot_9 : "**✅ Obrolan Aktif**\n\n"
 pbot_10 : "Obrolan Pribadi"
 pbot_11 : "Tidak ditemukan Obrolan Resmi"
 pbot_12 : "Mode Bot Pribadi Dinonaktifkan.\n\nUntuk menggunakan Mode Bot Pribadi, pastikan untuk menyetel **PRIVATE_BOT_MODE** = **True**"
-pbot_13 : "\n**<b>❎ Obrolan Nonaktif:</b>**\n\n"
+pbot_13 : "\n**❌ Obrolan Nonaktif:**\n\n"
 
 
 #Gbanned
