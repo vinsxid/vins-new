@@ -274,9 +274,9 @@ P_B_3 : "🏮 sᴛʀᴇᴀᴍɪɴɢ"
 P_B_4 : "🎵 ᴘʟᴀʏʟɪsᴛ"
 
 #Playlist
-PL_B_1 : "🚀 Putar Playlist"
+PL_B_1 : "🚀 ᴘʟᴀʏʟɪsᴛ"
 PL_B_2 : "✚ ᴘʟᴀʏʟɪsᴛ"
-PL_B_3 : "✚ ᴄᴘᴀɴᴇʟ"
+PL_B_3 : "✚ ᴍᴇɴᴜ"
 PL_B_4 : "▶️ Mode Putar"
 PL_B_5 : "🔄 Hapus Semua Playlist"
 PL_B_6 : "↗️ Hapus Playlist"
@@ -341,8 +341,8 @@ sudo_1 : "{0} Sudah menjadi Admin Sudo."
 sudo_2 : "Ditambahkan **{0}** ke Admin Sudo."
 sudo_3 : "Bukan bagian dari Admin Sudo Bot."
 sudo_4 : "Dihapus dari Admin Sudo Bot"
-sudo_5 : "👑 **ᴘᴇᴍɪʟɪᴋ:**\n"
-sudo_6 : "\n👮‍♂️ **ᴀᴅᴍɪɴ sᴜᴅᴏ:**\n"
+sudo_5 : "👑 **Pᴇᴍɪʟɪᴋ:**\n"
+sudo_6 : "\n👮‍♂️ **Aᴅᴍɪɴ Sᴜᴅᴏ:**\n"
 sudo_7 : "**Tidak Ada Admin Sudo**"
 
 #Block
