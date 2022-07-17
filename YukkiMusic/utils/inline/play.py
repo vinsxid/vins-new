@@ -88,9 +88,9 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                #text=_["PL_B_2"],
-                #callback_data=f"add_playlist {videoid}",
-                text="📨 ᴄʜᴀɴɴᴇʟ", url=f"{config.SUPPORT_CHANNEL}"
+                text=_["PL_B_2"],
+                callback_data=f"add_playlist {videoid}",
+                #text="📨 ᴄʜᴀɴɴᴇʟ", url=f"{config.SUPPORT_CHANNEL}"
                 #text=_["S_B_3"],
                 #url=f"{config.SUPPORT_GROUP}",
             ),
