@@ -343,8 +343,8 @@ sudo_1 : "{0} Sudah menjadi Admin Sudo."
 sudo_2 : "Ditambahkan **{0}** ke Admin Sudo."
 sudo_3 : "Bukan bagian dari Admin Sudo Bot."
 sudo_4 : "Dihapus dari Admin Sudo Bot"
-sudo_5 : "👑<u> **Pᴇᴍɪʟɪᴋ:** </u> \n"
-sudo_6 : "\n👮‍♂️<u> **Aᴅᴍɪɴ Sᴜᴅᴏ:** </u> \n"
+sudo_5 : "👑 **Pᴇᴍɪʟɪᴋ:** \n"
+sudo_6 : "\n👮‍♂️ **Aᴅᴍɪɴ Sᴜᴅᴏ:** \n"
 sudo_7 : "**Tidak Ada Admin Sudo**"
 
 #Block
