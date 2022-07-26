@@ -22,13 +22,13 @@ def testspeed(m):
     try:
         test = speedtest.Speedtest()
         test.get_best_server()
-        m = m.edit("Running Download SpeedTest")
+        m = m.edit("» ᴄᴇᴋ ᴅᴏᴡɴʟᴏᴀᴅ sᴘᴇᴇᴅ..")
         test.download()
-        m = m.edit("Running Upload SpeedTest")
+        m = m.edit("» ᴄᴇᴋ ᴜᴘʟᴏᴀᴅ sᴘᴇᴇᴅ..")
         test.upload()
         test.results.share()
         result = test.results.dict()
-        m = m.edit("Sharing SpeedTest Results")
+        m = m.edit("⏳ ᴜᴘʟᴏᴀᴅɪɴɢ sᴘᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs..")
     except Exception as e:
         return m.edit(e)
     return result
@@ -36,21 +36,21 @@ def testspeed(m):
 
 @app.on_message(filters.command(SPEEDTEST_COMMAND) & SUDOERS)
 async def speedtest_function(client, message):
-    m = await message.reply_text("Running Speed test")
+    m = await message.reply_text("» ᴄᴇᴋ ᴅᴏᴡɴʟᴏᴀᴅ ᴅᴀɴ ᴜᴘʟᴏᴀᴅ sᴘᴇᴇᴅ..")
     loop = asyncio.get_event_loop()
     result = await loop.run_in_executor(None, testspeed, m)
-    output = f"""**Speedtest Results**
+    output = f"""**sᴘᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs**
     
-<u>**Client:**</u>
-**ISP:** {result['client']['isp']}
-**Country:** {result['client']['country']}
+<u>**ᴄʟɪᴇɴᴛ:**</u>
+**ɪsᴘ:** {result['client']['isp']}
+**ᴄᴏᴜɴᴛʀʏ:** {result['client']['country']}
   
-<u>**Server:**</u>
-**Name:** {result['server']['name']}
-**Country:** {result['server']['country']}, {result['server']['cc']}
-**Sponsor:** {result['server']['sponsor']}
-**Latency:** {result['server']['latency']}  
-**Ping:** {result['ping']}"""
+<u>**sᴇʀᴠᴇʀ:**</u>
+**ɴᴀᴍᴇ:** {result['server']['name']}
+**ᴄᴏᴜɴᴛʀʏ:** {result['server']['country']}, {result['server']['cc']}
+**sᴘᴏɴsᴏʀ:** {result['server']['sponsor']}
+**ʟᴀᴛᴇɴᴄʏ:** {result['server']['latency']}  
+**ᴘɪɴɢ:** {result['ping']}"""
     msg = await app.send_photo(
         chat_id=message.chat.id, 
         photo=result["share"], 
